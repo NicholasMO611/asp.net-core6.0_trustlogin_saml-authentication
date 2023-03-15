@@ -110,7 +110,7 @@ namespace BlazorSAMLSample
                 {
                     // Load config parameters from metadata, using the Entity Id as the metadata address.
                     // LoadMetadata = true,
-                    MetadataLocation = "sample-metadata.xml",
+                    MetadataLocation = "your-metadata.xml",
                     AllowUnsolicitedAuthnResponse = true,
                     LoadMetadata = true
                 });
